@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.4.7"
+  },
+  "scripts": {
+    "build": "postcss src/styles/input.css -o src/styles/output.css",
+    "deploy": "gh-pages -d src"
+  },
+  "homepage": "https://7ncy.github.io",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "postcss-cli": "^11.0.0"
+  }
+}
