@@ -4,10 +4,10 @@
     "tailwindcss": "^3.4.7"
   },
   "scripts": {
-    "build": "postcss src/styles/input.css -o src/styles/output.css",
-    "deploy": "gh-pages -d src"
+    "build": "postcss src/styles/input.css -o public/styles/output.css",
+    "deploy": "gh-pages -d public"
   },
-  "homepage": "https://7ncy/7ncy.github.io",
+  "homepage": "https://7ncy.github.io",
   "dependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.40",
