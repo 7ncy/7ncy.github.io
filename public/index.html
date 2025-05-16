@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="./styles/output.css" rel="stylesheet">
 	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="./scripts/talk.js"></script>
 </head>
 
 <body>
@@ -19,13 +20,14 @@
 			<p class="mb-6 text-lg max-w-md mx-auto">
 				I write code sometimes, hehe...
 			</p>
-			<a href="#" class="py-2 px-4 rounded-lg bg-indigo-900 border-2 border-transparent text-white text-md hover:bg-indigo-800">
+			<button id="talkButton" class="py-2 px-4 rounded-lg bg-indigo-900 border-2 border-transparent text-white text-md hover:bg-indigo-800">
 				Let's Talk
-			</a>
+			</button>
 		</div>
-		<!-- Image at the bottom -->
+		<!-- Rabbit and chat bubble container -->
 		<div class="relative flex justify-center flex-shrink-0">
 			<img src="./img/rabbit.svg" alt="Rabbit" class="w-auto h-32 sm:h-48 md:h-64 lg:h-80 xl:h-96 object-contain">
+			<img id="chatBubble" src="./img/chat-bubble.svg" alt="Chat Bubble" class="absolute -top-32 w-auto h-24 sm:h-32 md:h-40 lg:h-48 xl:h-64 object-contain opacity-0 transition-opacity duration-5000">
 		</div>
 	</section>
 </body>
